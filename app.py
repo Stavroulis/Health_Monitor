@@ -7,12 +7,11 @@ import base64
 from fpdf import FPDF
 
 st.set_page_config(page_title="Mobile Health Tracker", layout="centered")
-
 st.markdown("""
-    <link rel="manifest" href="manifest.json">
-    <link rel="icon" href="your_favicon.png" sizes="192x192">
-    <meta name="theme-color" content="#00aaff">
+<link rel="manifest" href="https://raw.githubusercontent.com/Stavroulis/Health_Monitor/main/manifest.json">
+<link rel="icon" href="https://raw.githubusercontent.com/Stavroulis/Health_Monitor/main/icon.png" sizes="192x192">
 """, unsafe_allow_html=True)
+
 
 
 st.markdown("""
